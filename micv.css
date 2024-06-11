@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+div {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a3a3a;
+    color: black;
+}
+div img {
+    border-radius: 50%;
+}
+#nombre {
+    text-align: center;
+}
+
+#nombre h1 {
+    margin: 0;
+}
+
+#nombre p {
+    margin: 0;
+}
+#precentacion,#xp,#formacion,#skill{
+    background-color: white;
+    margin: 20px auto ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 3px;
+    max-width: 800px;
+}
+h2{
+    margin: .5em ;
+}
